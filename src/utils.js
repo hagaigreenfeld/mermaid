@@ -36,6 +36,13 @@ export const detectType = function (text) {
   }
   return 'flowchart'
 }
+function String testFunction {
+  if (1==1)
+    return "OK";
+  else
+    return "OK";
+}
+
 
 /**
  * @function isSubstringInArray
